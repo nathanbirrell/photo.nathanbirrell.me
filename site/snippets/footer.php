@@ -4,11 +4,9 @@
     </div>
   </footer>
 
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/foundation.min.js"></script>
-  <script>
-    $(document).foundation();
-  </script>
+  <?php echo js('bower_components/jquery/dist/jquery.min.js') ?>
+  <?php echo js('bower_components/foundation/js/foundation.min.js') ?>
+  <?php echo js('assets/js/app.js') ?>
 
 </body>
 
