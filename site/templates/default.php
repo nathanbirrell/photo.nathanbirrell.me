@@ -3,7 +3,14 @@
 <div class="row site-body">
 
     <div class="medium-3 columns panel header">
-      <h1 class="title"><?php echo html($site->title()) ?></h1>
+      <h1 class="title">
+        <a href="<?php echo $pages->findByTitle("home") ?>">
+          <?php echo html($site->title()) ?>
+        </a>
+      </h1>
+
+      <?php echo kirbytext($pages->findByDirname("about")->Text()) ?>
+
       <?php snippet('menu') ?>
 
       <div class="footer">
@@ -12,52 +19,7 @@
     </div>
 
     <div class="medium-9 columns panel">
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
-      <p>body</p>
+
     </div>
 
 </div>
