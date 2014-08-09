@@ -1,0 +1,17 @@
+﻿Title: Nathan Birrell / Lens
+
+----
+
+Author: Nathan Birrell
+
+----
+
+Description: My photoblog
+
+----
+
+Keywords: nathan birrell, melbourne, photography, 35mm, micro four thirds
+
+----
+
+Copyright: © (date: Year) (link: http://nathanbirrell.me text: Nathan Birrell)
