@@ -9,12 +9,8 @@
   <meta name="keywords" content="<?php echo html($site->keywords()) ?>" />
   <meta name="robots" content="index, follow" />
 
-  <!-- <link rel="stylesheet" href="assets/stylesheets/app.css" /> -->
   <?php echo css('assets/styles/app.css') ?>
   <?php echo js('bower_components/modernizr/modernizr.js') ?>
-
-
-  <!-- // <script src="bower_components/modernizr/modernizr.js"></script> -->
 
   <script src=""></script>
 

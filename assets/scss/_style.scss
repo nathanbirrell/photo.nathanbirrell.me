@@ -1,0 +1,40 @@
+.site-body {
+  padding: 24px 0;
+  height: 100%;
+}
+
+a {
+  &:hover, &:active {
+    opacity: .75;
+  }
+}
+
+.header {
+  background-color: transparent;
+  border: none;
+
+  ul {
+    list-style: none;
+  }
+
+  @media #{$small} {
+    position: fixed;
+  }
+
+  @media #{$small-only} {
+    ul {
+      @include inline-list();
+    }
+  }
+}
+
+.title {
+  font-weight: $font-weight-bold;
+  font-size: $font-size-medium;
+}
+
+.footer {
+  p {
+    font-size: $font-size-xsmall;
+  }
+}
