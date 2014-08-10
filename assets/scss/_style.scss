@@ -104,12 +104,14 @@ a {
       display: inline-block;
 
       // default image proportions
-      height: auto;
-      width: 100%;
+      &, &.post-image {
+        height: auto;
+        width: 99%;
+      }
 
-      &.tall {
+      &.post-image-tall {
         // tall image proportions
-        height: 80%;
+        height: 90%;
         width: auto;
       }
     }

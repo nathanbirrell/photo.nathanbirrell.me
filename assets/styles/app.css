@@ -7081,14 +7081,16 @@ a:hover, a:active {
       vertical-align: middle; }
     /* line 103, ../scss/_style.scss */
     .post .full-image img {
-      display: inline-block;
-      height: auto;
-      width: 100%; }
-      /* line 110, ../scss/_style.scss */
-      .post .full-image img.tall {
-        height: 80%;
+      display: inline-block; }
+      /* line 107, ../scss/_style.scss */
+      .post .full-image img, .post .full-image img.post-image {
+        height: auto;
+        width: 99%; }
+      /* line 112, ../scss/_style.scss */
+      .post .full-image img.post-image-tall {
+        height: 90%;
         width: auto; }
 
-/* line 120, ../scss/_style.scss */
+/* line 122, ../scss/_style.scss */
 .footer p {
   font-size: 75%; }
