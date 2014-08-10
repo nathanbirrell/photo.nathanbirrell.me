@@ -1,4 +1,4 @@
-﻿Title: my photos
+﻿Title: My pictures
 
 ----
 
@@ -14,7 +14,7 @@ Description: My photoblog
 
 ----
 
-Keywords: nathan birrell, melbourne, photography, 35mm, micro four thirds
+Keywords: nathan birrell, melbourne, photography, 35mm, micro four thirds, photoblog
 
 ----
 

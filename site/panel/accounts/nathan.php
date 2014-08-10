@@ -6,5 +6,6 @@
 # docs: http://getkirby.com/docs/panel/accounts
 
 username: nathan
-password: password
+password: 7ed33f6561dae76d1d2c19f637b23e6d420cdf82
+encrypt:  sha1
 language: en

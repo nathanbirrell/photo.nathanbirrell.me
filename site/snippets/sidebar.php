@@ -1,4 +1,4 @@
-<div class="medium-3 columns panel header">
+<div class="large-2 medium-3 columns panel header">
   <h1>
     <a href="<?php echo $pages->find('home')->url() ?>">
       <?php echo html($site->title()) ?>
