@@ -2,7 +2,7 @@
 
 ----
 
-﻿Subtitle: by Nathan Birrell
+﻿Subtitle: by <a href="http://nathanbirrell.me">Nathan Birrell</a>
 
 ----
 

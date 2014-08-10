@@ -5,7 +5,7 @@
     </a>
   </h1>
   <h2 class="subtitle">
-    <?php echo html($site->subtitle()) ?>
+    <?php echo $site->subtitle() ?>
   </h2>
 
   <?php
@@ -13,7 +13,7 @@
     echo kirbytext($about->text());
   ?>
 
-  <?php snippet('menu-archive') ?>
+  <?php snippet('sidebar-archive') ?>
 
   <div class="footer">
     <?php echo kirbytext($site->copyright()) ?>

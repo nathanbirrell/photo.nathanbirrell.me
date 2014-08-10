@@ -99,16 +99,19 @@ a {
     overflow: hidden;
     text-align: center;
 
-    &:before {
-      content: '';
-      display: inline-block;
-      height: 100%;
-      vertical-align: middle;
-      visibility: hidden;
-
-      @media #{$small-only} {
-        // height: 50vh;
+    @media #{$medium-up} {
+      &:before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
       }
+    }
+
+    @media #{$small-only} {
+      height: auto;
+      width: auto;
+      margin: 12px 0;
     }
 
     img {

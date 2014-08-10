@@ -7064,35 +7064,41 @@ a:hover, a:active {
     width: 100%;
     overflow: hidden;
     text-align: center; }
-    /* line 102, ../scss/_style.scss */
-    .post .full-image:before {
-      content: '';
-      display: inline-block;
-      height: 100%;
-      vertical-align: middle;
-      visibility: hidden; }
-    /* line 114, ../scss/_style.scss */
+    @media only screen and (min-width: 40.063em) {
+      /* line 103, ../scss/_style.scss */
+      .post .full-image:before {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle; } }
+    @media only screen and (max-width: 40em) {
+      /* line 95, ../scss/_style.scss */
+      .post .full-image {
+        height: auto;
+        width: auto;
+        margin: 12px 0; } }
+    /* line 117, ../scss/_style.scss */
     .post .full-image img {
       display: inline-block; }
-      /* line 118, ../scss/_style.scss */
+      /* line 121, ../scss/_style.scss */
       .post .full-image img, .post .full-image img.post-image {
         height: auto;
         width: 99%; }
         @media only screen and (max-width: 40em) {
-          /* line 118, ../scss/_style.scss */
+          /* line 121, ../scss/_style.scss */
           .post .full-image img, .post .full-image img.post-image {
             height: auto;
             width: 95%; } }
-      /* line 128, ../scss/_style.scss */
+      /* line 131, ../scss/_style.scss */
       .post .full-image img.post-image-tall {
         height: 90%;
         width: auto; }
         @media only screen and (max-width: 40em) {
-          /* line 128, ../scss/_style.scss */
+          /* line 131, ../scss/_style.scss */
           .post .full-image img.post-image-tall {
             height: auto;
             width: 90%; } }
 
-/* line 143, ../scss/_style.scss */
+/* line 146, ../scss/_style.scss */
 .footer p {
   font-size: 75%; }
