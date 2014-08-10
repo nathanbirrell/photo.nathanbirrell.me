@@ -13,27 +13,43 @@ a {
   background-color: transparent;
   border: none;
 
+  h1 {
+    a {
+      color: $body-font-color;
+    }
+    font-weight: $font-weight-bold;
+    font-size: $font-size-medium;
+  }
+
+  h2 {
+    font-size: $font-size-small;
+    margin: 22px 0;
+  }
+
+  h3 {
+    font-weight: $font-weight-bold;
+    font-size: $font-size-small;
+  }
+
   ul {
     list-style: none;
+
+    & ul {
+      margin-left: 6px;
+    }
+
+    @media #{$medium-up} {
+      margin-left: 0;
+    }
+
+    @media #{$small-only} {
+      @include inline-list();
+    }
   }
 
   @media #{$small} {
     position: fixed;
   }
-
-  @media #{$small-only} {
-    ul {
-      @include inline-list();
-    }
-  }
-}
-
-.title {
-  a {
-    color: $body-font-color;
-  }
-  font-weight: $font-weight-bold;
-  font-size: $font-size-medium;
 }
 
 .footer {

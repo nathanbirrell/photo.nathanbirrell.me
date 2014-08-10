@@ -3,15 +3,21 @@
 <div class="row site-body">
 
     <div class="medium-3 columns panel header">
-      <h1 class="title">
+      <h1>
         <a href="<?php echo $pages->findByTitle("home") ?>">
           <?php echo html($site->title()) ?>
         </a>
       </h1>
+      <h2 class="subtitle">
+        <?php echo html($site->subtitle()) ?>
+      </h2>
 
-      <?php echo kirbytext($pages->findByDirname("about")->Text()) ?>
+      <?php
+        $about = $pages->find('about');
+        echo kirbytext($about->text());
+      ?>
 
-      <?php snippet('menu') ?>
+      <?php snippet('archive') ?>
 
       <div class="footer">
         <?php echo kirbytext($site->copyright()) ?>

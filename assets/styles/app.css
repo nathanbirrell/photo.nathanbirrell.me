@@ -6990,39 +6990,53 @@ a:hover, a:active {
   background-color: transparent;
   border: none; }
   /* line 16, ../scss/_style.scss */
+  .header h1 {
+    font-weight: 700;
+    font-size: 140%; }
+    /* line 17, ../scss/_style.scss */
+    .header h1 a {
+      color: #222222; }
+  /* line 24, ../scss/_style.scss */
+  .header h2 {
+    font-size: 100%;
+    margin: 22px 0; }
+  /* line 29, ../scss/_style.scss */
+  .header h3 {
+    font-weight: 700;
+    font-size: 100%; }
+  /* line 34, ../scss/_style.scss */
   .header ul {
     list-style: none; }
+    /* line 37, ../scss/_style.scss */
+    .header ul ul {
+      margin-left: 6px; }
+    @media only screen and (min-width: 40.063em) {
+      /* line 34, ../scss/_style.scss */
+      .header ul {
+        margin-left: 0; } }
+    @media only screen and (max-width: 40em) {
+      /* line 34, ../scss/_style.scss */
+      .header ul {
+        margin: 0 auto 1.0625rem auto;
+        margin-left: -1.375rem;
+        margin-right: 0;
+        padding: 0;
+        list-style: none;
+        overflow: hidden; }
+        /* line 42, ../../bower_components/foundation/scss/foundation/components/_inline-lists.scss */
+        .header ul > li {
+          list-style: none;
+          float: left;
+          margin-left: 1.375rem;
+          display: block; }
+          /* line 47, ../../bower_components/foundation/scss/foundation/components/_inline-lists.scss */
+          .header ul > li > * {
+            display: block; } }
   @media only screen and (min-width: 40.063em) {
     /* line 12, ../scss/_style.scss */
     .header {
       position: fixed; } }
-  @media only screen and (max-width: 40em) {
-    /* line 25, ../scss/_style.scss */
-    .header ul {
-      margin: 0 auto 1.0625rem auto;
-      margin-left: -1.375rem;
-      margin-right: 0;
-      padding: 0;
-      list-style: none;
-      overflow: hidden; }
-      /* line 42, ../../bower_components/foundation/scss/foundation/components/_inline-lists.scss */
-      .header ul > li {
-        list-style: none;
-        float: left;
-        margin-left: 1.375rem;
-        display: block; }
-        /* line 47, ../../bower_components/foundation/scss/foundation/components/_inline-lists.scss */
-        .header ul > li > * {
-          display: block; } }
 
-/* line 31, ../scss/_style.scss */
-.title {
-  font-weight: 700;
-  font-size: 140%; }
-  /* line 32, ../scss/_style.scss */
-  .title a {
-    color: #222222; }
-
-/* line 40, ../scss/_style.scss */
+/* line 56, ../scss/_style.scss */
 .footer p {
   font-size: 75%; }
