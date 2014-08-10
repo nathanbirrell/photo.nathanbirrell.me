@@ -1,11 +1,11 @@
 <nav class="menu">
   <ul class="clearfix">
-    <?php foreach($pages->visible() AS $p): ?>
+    <?php foreach($pages->visible() AS $topLevelPage): ?>
       <li>
-        <h3><?php echo html($p->title()) ?></h3>
+        <h3><?php echo html($topLevelPage->title()) ?></h3>
       </li>
        <ul>
-        <?php foreach($p->children()->visible() as $post): ?>
+        <?php foreach($topLevelPage->children()->flip()->visible() as $post): ?>
         <li>
           <a href="<?php echo $post->url() ?>">
             <?php echo html($post->title()) ?>

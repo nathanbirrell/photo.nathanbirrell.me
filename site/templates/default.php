@@ -17,7 +17,7 @@
         echo kirbytext($about->text());
       ?>
 
-      <?php snippet('archive') ?>
+      <?php snippet('menu-archive') ?>
 
       <div class="footer">
         <?php echo kirbytext($site->copyright()) ?>
@@ -25,7 +25,14 @@
     </div>
 
     <div class="medium-9 columns panel">
+      <?php
+        $post = $pages->find('a')->children->last();
+        $date = $post->date('d M, Y');
 
+        echo kirbytext($post->title());
+        echo kirbytext($date);
+        echo kirbytext($post->text());
+      ?>
     </div>
 
 </div>
