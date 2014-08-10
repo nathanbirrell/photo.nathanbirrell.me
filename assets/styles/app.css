@@ -7040,6 +7040,55 @@ a:hover, a:active {
     .header {
       position: fixed; } }
 
-/* line 60, ../scss/_style.scss */
+/* line 59, ../scss/_style.scss */
+.post {
+  background-color: transparent;
+  border: none;
+  height: 100%; }
+  /* line 64, ../scss/_style.scss */
+  .post h1 {
+    font-weight: 700;
+    font-size: 140%; }
+    /* line 65, ../scss/_style.scss */
+    .post h1 a {
+      color: #222222; }
+  /* line 72, ../scss/_style.scss */
+  .post h2 {
+    font-size: 100%;
+    margin: 22px 0; }
+  /* line 77, ../scss/_style.scss */
+  .post h3 {
+    font-weight: 700;
+    font-size: 100%; }
+  /* line 82, ../scss/_style.scss */
+  .post .date {
+    font-style: italic;
+    font-size: 75%;
+    display: block;
+    margin-bottom: 14px; }
+  /* line 89, ../scss/_style.scss */
+  .post .full-image {
+    display: block;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    text-align: center; }
+    /* line 96, ../scss/_style.scss */
+    .post .full-image:before {
+      content: '';
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle; }
+    /* line 103, ../scss/_style.scss */
+    .post .full-image img {
+      display: inline-block;
+      height: auto;
+      width: 100%; }
+      /* line 110, ../scss/_style.scss */
+      .post .full-image img.tall {
+        height: 80%;
+        width: auto; }
+
+/* line 120, ../scss/_style.scss */
 .footer p {
   font-size: 75%; }
