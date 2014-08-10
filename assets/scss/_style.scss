@@ -92,27 +92,58 @@ a {
     margin-bottom: 14px;
   }
 
+  // .full-image {
+  //   display: inline-block;
+  //   max-height: 100vh;
+  //   width: 100%;
+  //   overflow: hidden;
+  //   text-align: center;
+  //
+  //   @media #{$medium-up} {
+  //     &:before {
+  //       content: '';
+  //       display: inline-block;
+  //       height: 100%;
+  //       vertical-align: middle;
+  //     }
+  //   }
+  //
+  //   @media #{$small-only} {
+  //     height: auto;
+  //     width: auto;
+  //     margin: 12px 0;
+  //   }
+  //
+  //   img {
+  //     display: inline-block;
+  //
+  //     // default image proportions
+  //     &, &.post-image {
+  //       height: auto;
+  //       width: 100%;
+  //
+  //       @media #{$small-only} {
+  //         height: auto;
+  //         width: 95%;
+  //       }
+  //     }
+  //
+  //     &.post-image-tall {
+  //       // tall image proportions
+  //       height: 100%;
+  //       width: auto;
+  //
+  //       @media #{$small-only} {
+  //         height: auto;
+  //         width: 90%;
+  //       }
+  //     }
+  //   }
+  // }
+
   .full-image {
-    display: inline-block;
-    height: 100vh;
-    width: 100%;
-    overflow: hidden;
     text-align: center;
-
-    @media #{$medium-up} {
-      &:before {
-        content: '';
-        display: inline-block;
-        height: 100%;
-        vertical-align: middle;
-      }
-    }
-
-    @media #{$small-only} {
-      height: auto;
-      width: auto;
-      margin: 12px 0;
-    }
+    margin: 12px 0;
 
     img {
       display: inline-block;
@@ -120,23 +151,11 @@ a {
       // default image proportions
       &, &.post-image {
         height: auto;
-        width: 99%;
-
-        @media #{$small-only} {
-          height: auto;
-          width: 95%;
-        }
+        width: 100%;
       }
-
+      // tall image proportions
       &.post-image-tall {
-        // tall image proportions
-        height: 90%;
-        width: auto;
-
-        @media #{$small-only} {
-          height: auto;
-          width: 90%;
-        }
+        width: 80%;
       }
     }
   }
