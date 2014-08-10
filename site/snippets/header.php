@@ -12,8 +12,6 @@
   <?php echo css('assets/styles/app.css') ?>
   <?php echo js('bower_components/modernizr/modernizr.js') ?>
 
-  <script src=""></script>
-
 </head>
 
 <body>
