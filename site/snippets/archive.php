@@ -7,7 +7,9 @@
        <ul>
         <?php foreach($p->children()->visible() as $post): ?>
         <li>
-           <i><?php echo html($post->title()) ?></i>
+          <a href="<?php echo $post->url() ?>">
+            <?php echo html($post->title()) ?>
+          </a>
         </li>
         <?php endforeach ?>
        </ul>

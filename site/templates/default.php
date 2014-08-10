@@ -4,7 +4,7 @@
 
     <div class="medium-3 columns panel header">
       <h1>
-        <a href="<?php echo $pages->findByTitle("home") ?>">
+        <a href="<?php echo $pages->find('home')->url() ?>">
           <?php echo html($site->title()) ?>
         </a>
       </h1>

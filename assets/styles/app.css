@@ -7010,6 +7010,9 @@ a:hover, a:active {
     /* line 37, ../scss/_style.scss */
     .header ul ul {
       margin-left: 6px; }
+      /* line 40, ../scss/_style.scss */
+      .header ul ul li {
+        font-style: italic; }
     @media only screen and (min-width: 40.063em) {
       /* line 34, ../scss/_style.scss */
       .header ul {
@@ -7037,6 +7040,6 @@ a:hover, a:active {
     .header {
       position: fixed; } }
 
-/* line 56, ../scss/_style.scss */
+/* line 60, ../scss/_style.scss */
 .footer p {
   font-size: 75%; }

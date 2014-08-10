@@ -36,6 +36,10 @@ a {
 
     & ul {
       margin-left: 6px;
+
+      & li {
+        font-style: italic;
+      }
     }
 
     @media #{$medium-up} {
