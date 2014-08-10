@@ -40,6 +40,11 @@ a {
       & li {
         font-style: italic;
       }
+
+      @media #{$medium-up} {
+        max-height: 320px;
+        overflow: scroll;
+      }
     }
 
     @media #{$medium-up} {
@@ -47,7 +52,8 @@ a {
     }
 
     @media #{$small-only} {
-      @include inline-list();
+      display: none;
+      // @include inline-list();
     }
   }
 
@@ -87,7 +93,7 @@ a {
   }
 
   .full-image {
-    display: block;
+    display: inline-block;
     height: 100vh;
     width: 100%;
     overflow: hidden;
@@ -98,6 +104,11 @@ a {
       display: inline-block;
       height: 100%;
       vertical-align: middle;
+      visibility: hidden;
+
+      @media #{$small-only} {
+        // height: 50vh;
+      }
     }
 
     img {
@@ -107,12 +118,22 @@ a {
       &, &.post-image {
         height: auto;
         width: 99%;
+
+        @media #{$small-only} {
+          height: auto;
+          width: 95%;
+        }
       }
 
       &.post-image-tall {
         // tall image proportions
         height: 90%;
         width: auto;
+
+        @media #{$small-only} {
+          height: auto;
+          width: 90%;
+        }
       }
     }
   }

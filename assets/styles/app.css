@@ -7013,6 +7013,11 @@ a:hover, a:active {
       /* line 40, ../scss/_style.scss */
       .header ul ul li {
         font-style: italic; }
+      @media only screen and (min-width: 40.063em) {
+        /* line 37, ../scss/_style.scss */
+        .header ul ul {
+          max-height: 320px;
+          overflow: scroll; } }
     @media only screen and (min-width: 40.063em) {
       /* line 34, ../scss/_style.scss */
       .header ul {
@@ -7020,77 +7025,74 @@ a:hover, a:active {
     @media only screen and (max-width: 40em) {
       /* line 34, ../scss/_style.scss */
       .header ul {
-        margin: 0 auto 1.0625rem auto;
-        margin-left: -1.375rem;
-        margin-right: 0;
-        padding: 0;
-        list-style: none;
-        overflow: hidden; }
-        /* line 42, ../../bower_components/foundation/scss/foundation/components/_inline-lists.scss */
-        .header ul > li {
-          list-style: none;
-          float: left;
-          margin-left: 1.375rem;
-          display: block; }
-          /* line 47, ../../bower_components/foundation/scss/foundation/components/_inline-lists.scss */
-          .header ul > li > * {
-            display: block; } }
+        display: none; } }
   @media only screen and (min-width: 40.063em) {
     /* line 12, ../scss/_style.scss */
     .header {
       position: fixed; } }
 
-/* line 59, ../scss/_style.scss */
+/* line 65, ../scss/_style.scss */
 .post {
   background-color: transparent;
   border: none;
   height: 100%; }
-  /* line 64, ../scss/_style.scss */
+  /* line 70, ../scss/_style.scss */
   .post h1 {
     font-weight: 700;
     font-size: 140%; }
-    /* line 65, ../scss/_style.scss */
+    /* line 71, ../scss/_style.scss */
     .post h1 a {
       color: #222222; }
-  /* line 72, ../scss/_style.scss */
+  /* line 78, ../scss/_style.scss */
   .post h2 {
     font-size: 100%;
     margin: 22px 0; }
-  /* line 77, ../scss/_style.scss */
+  /* line 83, ../scss/_style.scss */
   .post h3 {
     font-weight: 700;
     font-size: 100%; }
-  /* line 82, ../scss/_style.scss */
+  /* line 88, ../scss/_style.scss */
   .post .date {
     font-style: italic;
     font-size: 75%;
     display: block;
     margin-bottom: 14px; }
-  /* line 89, ../scss/_style.scss */
+  /* line 95, ../scss/_style.scss */
   .post .full-image {
-    display: block;
+    display: inline-block;
     height: 100vh;
     width: 100%;
     overflow: hidden;
     text-align: center; }
-    /* line 96, ../scss/_style.scss */
+    /* line 102, ../scss/_style.scss */
     .post .full-image:before {
       content: '';
       display: inline-block;
       height: 100%;
-      vertical-align: middle; }
-    /* line 103, ../scss/_style.scss */
+      vertical-align: middle;
+      visibility: hidden; }
+    /* line 114, ../scss/_style.scss */
     .post .full-image img {
       display: inline-block; }
-      /* line 107, ../scss/_style.scss */
+      /* line 118, ../scss/_style.scss */
       .post .full-image img, .post .full-image img.post-image {
         height: auto;
         width: 99%; }
-      /* line 112, ../scss/_style.scss */
+        @media only screen and (max-width: 40em) {
+          /* line 118, ../scss/_style.scss */
+          .post .full-image img, .post .full-image img.post-image {
+            height: auto;
+            width: 95%; } }
+      /* line 128, ../scss/_style.scss */
       .post .full-image img.post-image-tall {
         height: 90%;
         width: auto; }
+        @media only screen and (max-width: 40em) {
+          /* line 128, ../scss/_style.scss */
+          .post .full-image img.post-image-tall {
+            height: auto;
+            width: 90%; } }
 
-/* line 122, ../scss/_style.scss */
+/* line 143, ../scss/_style.scss */
 .footer p {
   font-size: 75%; }
