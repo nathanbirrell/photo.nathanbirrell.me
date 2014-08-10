@@ -140,6 +140,14 @@ a {
       }
     }
   }
+
+  .image-container {
+    position: relative;
+    overflow: scroll;
+    height: 600px;
+    width: 100%;
+    background-color: red;
+  }
 }
 
 .footer {

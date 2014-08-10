@@ -1,0 +1,1 @@
+$(document).foundation(),$(window).stellar(),$.stellar({horizontalScrolling:!1,verticalScrolling:!0,horizontalOffset:0,verticalOffset:"50px",responsive:!0,scrollProperty:"scroll",positionProperty:"position",parallaxBackgrounds:!1,parallaxElements:!0,hideDistantElements:!0,hideElement:function(l){l.hide()},showElement:function(l){l.show()}});

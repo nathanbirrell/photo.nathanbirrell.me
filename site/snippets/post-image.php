@@ -6,6 +6,8 @@
     }
 ?>
 
+<div class="image-container" data-stellar-offset-parent="40px">
+
 <?php foreach($post->images() as $img): ?>
   <?php
     $w = $img->width();
@@ -15,11 +17,15 @@
       $class = "post-image-tall";
     }
   ?>
-  <div class="full-image">
+  <!-- <div class="full-image"> -->
     <img
       src="<?php echo $img->url() ?>"
       alt="<?php echo $img->name() ?>"
       class="<?php echo $class ?>"
+      data-stellar-ratio=".5"
     />
-  </div>
+  <!-- </div> -->
 <?php endforeach ?>
+
+
+</div>
