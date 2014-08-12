@@ -1,18 +1,29 @@
-<article class="medium-9 columns post">
-  <?php
-    if ($page->isHomePage()) {
-      $post = $pages->find('a')->children->last();
-    } else {
-      $post = $page;
-    }
-    $date = $post->date('d M, Y');
-  ?>
+<section>
 
-  <h1 id="title"><?php echo $post->title() ?></h1>
+  <article class="medium-9 columns panel post">
 
-  <span class="date"><?php echo $date ?></span>
+    <?php
+      if ($page->isHomePage()) {
+        $post = $pages->find('a')->children->last();
+      } else {
+        $post = $page;
+      }
+      $date = $post->date('d F, Y');
+      $dateRaw = $post->date("Y-m-d\TH:i:s");
+    ?>
 
-  <?php echo kirbytext($post->text()) ?>
+    <header>
 
-  <?php snippet('post-images') ?>
-</article>
+      <h1 id="title"><?php echo $post->title() ?></h1>
+
+      <span class="date"><time datetime="<?php echo $dateRaw ?>"><?php echo $date ?></time></span>
+
+    </header>
+
+    <?php echo kirbytext($post->text()) ?>
+
+    <?php snippet('post-images') ?>
+
+  </article>
+
+</section>

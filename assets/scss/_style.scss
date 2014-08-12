@@ -1,6 +1,10 @@
 .site-body {
-  padding: 24px 0;
-  height: 100%;
+  padding: 16px 0;
+  // height: 100%;
+
+  @media #{$medium-up} {
+    padding: 34px 0;
+  }
 }
 
 a {
@@ -19,6 +23,10 @@ a {
     }
     font-weight: $font-weight-bold;
     font-size: $font-size-medium;
+
+    @media #{$small-only} {
+      // font-size: $font-size-large;
+    }
   }
 
   h2 {
@@ -57,8 +65,8 @@ a {
     }
   }
 
-  @media #{$small} {
-    position: fixed;
+  @media #{$small-only} {
+    // position: fixed;
   }
 }
 
@@ -161,6 +169,7 @@ a {
 }
 
 .footer {
+  margin-bottom: 24px;
   p {
     display: inline-block;
     margin: 12px auto;
