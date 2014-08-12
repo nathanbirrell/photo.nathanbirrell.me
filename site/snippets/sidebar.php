@@ -14,8 +14,4 @@
   ?>
 
   <?php snippet('sidebar-archive') ?>
-
-  <div class="footer">
-    <?php echo kirbytext($site->copyright()) ?>
-  </div>
 </div>

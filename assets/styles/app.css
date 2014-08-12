@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Lora:400italic,700italic,400,700);
 /* line 316, ../../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.3.3/"; }
@@ -5140,7 +5140,7 @@ p {
   font-family: inherit;
   font-weight: normal;
   font-size: 1rem;
-  line-height: 1.6;
+  line-height: 1.35;
   margin-bottom: 1.25rem;
   text-rendering: optimizeLegibility; }
   /* line 242, ../../bower_components/foundation/scss/foundation/components/_type.scss */
@@ -5245,7 +5245,7 @@ ul,
 ol,
 dl {
   font-size: 1rem;
-  line-height: 1.6;
+  line-height: 1.35;
   margin-bottom: 1.25rem;
   list-style-position: outside;
   font-family: inherit; }
@@ -5343,7 +5343,7 @@ blockquote {
 /* line 416, ../../bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote,
 blockquote p {
-  line-height: 1.6;
+  line-height: 1.35;
   color: #6f6f6f; }
 
 /* Microformats */
@@ -7034,44 +7034,45 @@ a:hover, a:active {
 /* line 65, ../scss/_style.scss */
 .post {
   background-color: transparent;
-  border: none;
-  height: 100%; }
-  /* line 70, ../scss/_style.scss */
+  border: none; }
+  /* line 69, ../scss/_style.scss */
   .post h1 {
     font-weight: 700;
     font-size: 140%; }
-    /* line 71, ../scss/_style.scss */
+    /* line 70, ../scss/_style.scss */
     .post h1 a {
       color: #222222; }
-  /* line 78, ../scss/_style.scss */
+  /* line 77, ../scss/_style.scss */
   .post h2 {
     font-size: 100%;
     margin: 22px 0; }
-  /* line 83, ../scss/_style.scss */
+  /* line 82, ../scss/_style.scss */
   .post h3 {
     font-weight: 700;
     font-size: 100%; }
-  /* line 88, ../scss/_style.scss */
+  /* line 87, ../scss/_style.scss */
   .post .date {
     font-style: italic;
     font-size: 75%;
     display: block;
     margin-bottom: 14px; }
-  /* line 144, ../scss/_style.scss */
+  /* line 143, ../scss/_style.scss */
   .post .full-image {
     text-align: center;
     margin: 12px 0; }
-    /* line 148, ../scss/_style.scss */
+    /* line 147, ../scss/_style.scss */
     .post .full-image img {
       display: inline-block; }
-      /* line 152, ../scss/_style.scss */
+      /* line 151, ../scss/_style.scss */
       .post .full-image img, .post .full-image img.post-image {
         height: auto;
         width: 100%; }
-      /* line 157, ../scss/_style.scss */
+      /* line 156, ../scss/_style.scss */
       .post .full-image img.post-image-tall {
         width: 80%; }
 
-/* line 165, ../scss/_style.scss */
+/* line 164, ../scss/_style.scss */
 .footer p {
+  display: inline-block;
+  margin: 12px auto;
   font-size: 75%; }

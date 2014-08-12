@@ -1,8 +1,8 @@
-Title: Home
+Title: Photos
 
 ----
 
-Text: 
+Text:
 
 Yay! If you are seeing this, the installation of Kirby worked :)
 Now just give the links in the menu a try to see if URL redirection works as well.
