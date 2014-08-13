@@ -1,1 +1,1 @@
-$(document).foundation();
+$(document).foundation(),$(function(){var o=$("#sidebar"),n=$(window),t=o.offset(),i=34;n.scroll(function(){o.stop().animate(n.scrollTop()>t.top?{marginTop:n.scrollTop()-t.top+i}:{marginTop:0})})});

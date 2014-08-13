@@ -1,6 +1,5 @@
 .site-body {
   padding: 16px 0;
-  // height: 100%;
 
   @media #{$medium-up} {
     padding: 34px 0;
@@ -13,9 +12,10 @@ a {
   }
 }
 
-.header {
+.sidebar {
   background-color: transparent;
   border: none;
+
 
   h1 {
     a {
@@ -175,4 +175,8 @@ a {
     margin: 12px auto;
     font-size: $font-size-xsmall;
   }
+}
+
+.panel {
+  border: solid 1px red;
 }

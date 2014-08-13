@@ -6984,50 +6984,50 @@ th.hide-for-touch {
     .site-body {
       padding: 34px 0; } }
 
-/* line 11, ../scss/_style.scss */
+/* line 10, ../scss/_style.scss */
 a:hover, a:active {
   opacity: .75; }
 
-/* line 16, ../scss/_style.scss */
-.header {
+/* line 15, ../scss/_style.scss */
+.sidebar {
   background-color: transparent;
   border: none; }
   /* line 20, ../scss/_style.scss */
-  .header h1 {
+  .sidebar h1 {
     font-weight: 700;
     font-size: 140%; }
     /* line 21, ../scss/_style.scss */
-    .header h1 a {
+    .sidebar h1 a {
       color: #222222; }
   /* line 32, ../scss/_style.scss */
-  .header h2 {
+  .sidebar h2 {
     font-size: 100%;
     margin: 22px 0; }
   /* line 37, ../scss/_style.scss */
-  .header h3 {
+  .sidebar h3 {
     font-weight: 700;
     font-size: 100%; }
   /* line 42, ../scss/_style.scss */
-  .header ul {
+  .sidebar ul {
     list-style: none; }
     /* line 45, ../scss/_style.scss */
-    .header ul ul {
+    .sidebar ul ul {
       margin-left: 6px; }
       /* line 48, ../scss/_style.scss */
-      .header ul ul li {
+      .sidebar ul ul li {
         font-style: italic; }
       @media only screen and (min-width: 40.063em) {
         /* line 45, ../scss/_style.scss */
-        .header ul ul {
+        .sidebar ul ul {
           max-height: 320px;
           overflow: scroll; } }
     @media only screen and (min-width: 40.063em) {
       /* line 42, ../scss/_style.scss */
-      .header ul {
+      .sidebar ul {
         margin-left: 0; } }
     @media only screen and (max-width: 40em) {
       /* line 42, ../scss/_style.scss */
-      .header ul {
+      .sidebar ul {
         display: none; } }
 
 /* line 73, ../scss/_style.scss */
@@ -7078,3 +7078,7 @@ a:hover, a:active {
     display: inline-block;
     margin: 12px auto;
     font-size: 82%; }
+
+/* line 180, ../scss/_style.scss */
+.panel {
+  border: solid 1px red; }

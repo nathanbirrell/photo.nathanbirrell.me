@@ -16,7 +16,7 @@ RewriteEngine on
 #
 # RewriteBase /mysite
 #
-RewriteBase /Sites/nathanbirrell.me-lens/
+RewriteBase /Sites/nathanbirrell.me-photos/
 
 # block text files in the content folder from being accessed directly
 RewriteRule ^content/(.*)\.(txt|md|mdown)$ error [R=301,L]

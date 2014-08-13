@@ -1,5 +1,5 @@
 <aside>
-  <div class="large-2 medium-3 columns panel header">
+  <div id="sidebar" class="large-2 medium-3 columns panel sidebar">
     <h1>
       <a href="<?php echo $pages->find('home')->url() ?>">
         <?php echo html($site->title()) ?>
