@@ -32,7 +32,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/scss\/_settings.scss",
-		"outputAbbreviatedPath": "\/assets\/css\/_settings.css",
+		"outputAbbreviatedPath": "\/assets\/styles\/_settings.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -64,7 +64,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/scss\/app.scss",
-		"outputAbbreviatedPath": "\/assets\/css\/app.css",
+		"outputAbbreviatedPath": "\/assets\/styles\/app.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -74,25 +74,16 @@
 		},
 	"\/assets\/styles\/app.css": {
 		"fileType": 16,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/styles\/app.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/assets\/styles\/ellipsis.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/styles\/ellipsis.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/assets\/styles\/style.css": {
 		"fileType": 16,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/styles\/style.css",
 		"outputAbbreviatedPath": "No Output Path",
@@ -6501,7 +6492,7 @@
 	"bowerAbbreviatedPath": "",
 	"displayValue": "photo.nathanbirrell.me",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "pencil_brown"
+	"iconImageName": "brackets_darkGray"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 1,
