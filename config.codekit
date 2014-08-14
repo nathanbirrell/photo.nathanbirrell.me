@@ -5673,6 +5673,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/site\/snippets\/analytics.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/site\/snippets\/analytics.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/site\/snippets\/footer.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -6490,7 +6499,7 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "nathanbirrell.me-lens",
+	"displayValue": "photo.nathanbirrell.me",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "pencil_brown"
 	},
@@ -6626,7 +6635,7 @@
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
 	"externalServerAddress": "http:\/\/localhost:8080",
-	"externalServerPreviewPathAddition": "\/Sites\/nathanbirrell.me-lens",
+	"externalServerPreviewPathAddition": "\/Sites\/photo.nathanbirrell.me",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathEnabled": 1,
 	"hamlAutoOutputPathFilenamePattern": "*.html",
