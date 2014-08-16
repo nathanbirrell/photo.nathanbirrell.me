@@ -6990,103 +6990,108 @@ a:hover, a:active {
 
 /* line 15, ../scss/_style.scss */
 .sidebar {
+  position: relative;
   background-color: transparent;
   border: none;
-  position: fixed;
   z-index: 1; }
+  @media only screen and (min-width: 40.063em) {
+    /* line 15, ../scss/_style.scss */
+    .sidebar {
+      max-width: 250px;
+      position: fixed; } }
   @media only screen and (max-width: 40em) {
     /* line 15, ../scss/_style.scss */
     .sidebar {
-      position: relative; } }
+      margin-bottom: 0; } }
 
-/* line 28, ../scss/_style.scss */
+/* line 33, ../scss/_style.scss */
 .sidebar h1,
 .menu h1 {
   font-weight: 700;
   font-size: 140%; }
-  /* line 29, ../scss/_style.scss */
+  /* line 34, ../scss/_style.scss */
   .sidebar h1 a,
   .menu h1 a {
     color: #222222; }
-/* line 40, ../scss/_style.scss */
+/* line 45, ../scss/_style.scss */
 .sidebar h2,
 .menu h2 {
   font-size: 100%;
   margin: 22px 0; }
-/* line 45, ../scss/_style.scss */
+/* line 50, ../scss/_style.scss */
 .sidebar h3,
 .menu h3 {
   font-weight: 700;
   font-size: 100%; }
 
-/* line 52, ../scss/_style.scss */
+/* line 57, ../scss/_style.scss */
 .menu ul {
   list-style: none; }
-  /* line 55, ../scss/_style.scss */
+  /* line 60, ../scss/_style.scss */
   .menu ul ul {
     margin-left: 6px; }
-    /* line 58, ../scss/_style.scss */
+    /* line 63, ../scss/_style.scss */
     .menu ul ul li {
       font-style: italic; }
     @media only screen and (min-width: 40.063em) {
-      /* line 55, ../scss/_style.scss */
+      /* line 60, ../scss/_style.scss */
       .menu ul ul {
         max-height: 320px;
         overflow: scroll; } }
   @media only screen and (min-width: 40.063em) {
-    /* line 52, ../scss/_style.scss */
+    /* line 57, ../scss/_style.scss */
     .menu ul {
       margin-left: 0; } }
 
-/* line 78, ../scss/_style.scss */
+/* line 79, ../scss/_style.scss */
 .post {
   background-color: transparent;
   border: none; }
-  /* line 82, ../scss/_style.scss */
+  /* line 83, ../scss/_style.scss */
   .post h1 {
     font-weight: 700;
     font-size: 140%; }
-    /* line 83, ../scss/_style.scss */
+    /* line 84, ../scss/_style.scss */
     .post h1 a {
       color: #222222; }
-  /* line 90, ../scss/_style.scss */
+  /* line 91, ../scss/_style.scss */
   .post h2 {
     font-size: 100%;
     margin: 22px 0; }
-  /* line 95, ../scss/_style.scss */
+  /* line 96, ../scss/_style.scss */
   .post h3 {
     font-weight: 700;
     font-size: 100%; }
-  /* line 100, ../scss/_style.scss */
+  /* line 101, ../scss/_style.scss */
   .post .date {
     font-style: italic;
     font-size: 82%;
     display: block;
     margin-bottom: 14px; }
-  /* line 156, ../scss/_style.scss */
+  /* line 157, ../scss/_style.scss */
   .post .full-image {
     text-align: center;
     margin: 12px 0; }
-    /* line 160, ../scss/_style.scss */
+    /* line 161, ../scss/_style.scss */
     .post .full-image img {
       display: inline-block; }
-      /* line 164, ../scss/_style.scss */
+      /* line 165, ../scss/_style.scss */
       .post .full-image img, .post .full-image img.post-image {
         height: auto;
         width: 100%; }
-      /* line 169, ../scss/_style.scss */
+      /* line 170, ../scss/_style.scss */
       .post .full-image img.post-image-tall {
         width: 80%; }
 
-/* line 176, ../scss/_style.scss */
+/* line 177, ../scss/_style.scss */
 .footer {
   margin-bottom: 24px; }
-  /* line 178, ../scss/_style.scss */
+  /* line 179, ../scss/_style.scss */
   .footer p {
     display: inline-block;
     margin: 12px auto;
     font-size: 82%; }
 
-/* line 185, ../scss/_style.scss */
+/* line 186, ../scss/_style.scss */
 .panel {
   border: 1px solid red; }

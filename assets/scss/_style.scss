@@ -13,13 +13,18 @@ a {
 }
 
 .sidebar {
+  position: relative;
   background-color: transparent;
   border: none;
-  position: fixed;
   z-index: 1;
 
+  @media #{$medium-up} {
+    max-width: 250px;
+    position: fixed;
+  }
+
   @media #{$small-only} {
-    position: relative;
+    margin-bottom: 0;
   }
 }
 
@@ -67,10 +72,6 @@ a {
 
     @media #{$medium-up} {
       margin-left: 0;
-    }
-
-    @media #{$small-only} {
-      // display: none;
     }
   }
 }
