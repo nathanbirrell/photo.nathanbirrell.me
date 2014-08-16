@@ -1,6 +1,6 @@
 <section>
 
-  <article class="medium-9 columns panel post">
+  <article class="medium-9 medium-offset-3 columns panel post">
 
     <?php
       if ($page->isHomePage()) {

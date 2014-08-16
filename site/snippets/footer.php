@@ -1,5 +1,5 @@
 <footer class="row">
-  <div class="medium-9 medium-offset-2 columns footer">
+  <div class="medium-12 columns footer">
     <?php echo kirbytext($site->copyright()) ?>
   </div>
 </footer>

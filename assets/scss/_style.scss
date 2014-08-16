@@ -15,8 +15,16 @@ a {
 .sidebar {
   background-color: transparent;
   border: none;
+  position: fixed;
+  z-index: 1;
 
+  @media #{$small-only} {
+    position: relative;
+  }
+}
 
+.sidebar,
+.menu {
   h1 {
     a {
       color: $body-font-color;
@@ -38,9 +46,11 @@ a {
     font-weight: $font-weight-bold;
     font-size: $font-size-small;
   }
+}
 
+.menu {
   ul {
-    list-style: none;
+  list-style: none;
 
     & ul {
       margin-left: 6px;
@@ -60,13 +70,8 @@ a {
     }
 
     @media #{$small-only} {
-      display: none;
-      // @include inline-list();
+      // display: none;
     }
-  }
-
-  @media #{$small-only} {
-    // position: fixed;
   }
 }
 
@@ -175,4 +180,8 @@ a {
     margin: 12px auto;
     font-size: $font-size-xsmall;
   }
+}
+
+.panel {
+  border: 1px solid red;
 }
