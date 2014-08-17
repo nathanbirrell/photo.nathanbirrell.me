@@ -13,10 +13,23 @@ a {
 }
 
 .sidebar {
+  position: relative;
   background-color: transparent;
   border: none;
+  z-index: 1;
 
+  @media #{$medium-up} {
+    max-width: 250px;
+    position: fixed;
+  }
 
+  @media #{$small-only} {
+    margin-bottom: 0;
+  }
+}
+
+.sidebar,
+.menu {
   h1 {
     a {
       color: $body-font-color;
@@ -38,9 +51,11 @@ a {
     font-weight: $font-weight-bold;
     font-size: $font-size-small;
   }
+}
 
+.menu {
   ul {
-    list-style: none;
+  list-style: none;
 
     & ul {
       margin-left: 6px;
@@ -58,15 +73,6 @@ a {
     @media #{$medium-up} {
       margin-left: 0;
     }
-
-    @media #{$small-only} {
-      display: none;
-      // @include inline-list();
-    }
-  }
-
-  @media #{$small-only} {
-    // position: fixed;
   }
 }
 

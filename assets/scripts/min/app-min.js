@@ -1,1 +1,1 @@
-$(document).foundation(),$(function(){var o=$("#sidebar"),n=$(window),c=o.offset(),i=34;n.scroll(function(){o.css({marginTop:n.scrollTop()-c.top+i})})});
+$(document).foundation();
