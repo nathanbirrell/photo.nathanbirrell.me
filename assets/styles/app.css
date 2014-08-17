@@ -7036,8 +7036,8 @@ a:hover, a:active {
     @media only screen and (min-width: 40.063em) {
       /* line 60, ../scss/_style.scss */
       .menu ul ul {
-        max-height: 320px;
-        overflow: scroll; } }
+        max-height: 350px;
+        overflow: hidden; } }
   @media only screen and (min-width: 40.063em) {
     /* line 57, ../scss/_style.scss */
     .menu ul {
@@ -7090,7 +7090,7 @@ a:hover, a:active {
           /* line 172, ../scss/_style.scss */
           .post .full-image img.post-image-tall {
             width: auto;
-            height: 100%; } }
+            height: 700px; } }
 
 /* line 185, ../scss/_style.scss */
 .footer {
