@@ -7091,7 +7091,3 @@ a:hover, a:active {
     display: inline-block;
     margin: 12px auto;
     font-size: 82%; }
-
-/* line 186, ../scss/_style.scss */
-.panel {
-  border: 1px solid red; }
