@@ -65,8 +65,8 @@ a {
       }
 
       @media #{$medium-up} {
-        max-height: 320px;
-        overflow: scroll;
+        max-height: 350px;
+        overflow: hidden;
       }
     }
 
@@ -175,7 +175,7 @@ a {
 
         @media #{$medium-up} {
           width: auto;
-          height: 100%;
+          height: 700px;
         }
       }
     }
