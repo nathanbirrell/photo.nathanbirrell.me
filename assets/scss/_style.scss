@@ -157,18 +157,26 @@ a {
   .full-image {
     text-align: center;
     margin: 12px 0;
+    max-height: 700px;
+    max-width: 700px;
+    overflow: hidden;
 
     img {
       display: inline-block;
 
-      // default image proportions
       &, &.post-image {
-        height: auto;
         width: 100%;
+        height: auto;
       }
-      // tall image proportions
+
       &.post-image-tall {
         width: 80%;
+        height: auto;
+
+        @media #{$medium-up} {
+          width: auto;
+          height: 100%;
+        }
       }
     }
   }
