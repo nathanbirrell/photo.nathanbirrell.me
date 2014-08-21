@@ -2,8 +2,6 @@
 
   <article class="medium-9 medium-offset-3 columns panel post" itemprop="articleSection">
 
-    <a href="https://plus.google.com/116914196395616585208? rel=author" class="hide">+</a>
-
     <?php
       if ($page->isHomePage()) {
         $post = $pages->find('a')->children->last();
@@ -16,13 +14,16 @@
 
     <header>
 
-      <h1 id="title"><?php echo $post->title() ?></h1>
+      <h1 id="title" itemprop="name"><?php echo $post->title() ?></h1>
 
       <span class="date">
         <time datetime="<?php echo $dateRaw ?>" itemprop="datePublished" content="2014-08-21">
           <?php echo $date ?>
         </time>
       </span>
+
+      <span class="hide author" itemprop="author"><?php echo $site->author() ?></span>
+      <a href="https://plus.google.com/116914196395616585208? rel=author" class="hide"><?php echo $site->author() ?></a>
 
     </header>
 
