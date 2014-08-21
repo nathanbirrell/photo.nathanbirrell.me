@@ -9,7 +9,7 @@
       <?php echo $site->subtitle() ?>
     </h2>
 
-    <span class="hide" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <span class="hide" itemscope itemtype="http://schema.org/Person">
       <span itemprop="name">
         <?php echo $site->author() ?>
       </span>
