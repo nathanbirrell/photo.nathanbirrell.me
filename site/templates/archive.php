@@ -30,14 +30,16 @@
 	          <li class="archive-post">
 	            <?php $img = $post->images()->first(); ?>
 	            <div class="archive-image imageFill">
-				    <img
-				      src="<?php echo $img->url() ?>"
-				      alt="<?php echo $img->name() ?>"
-				      class=""
-				      itemscope itemtype="http://schema.org/ImageObject"
-	  			      itemprop="image"
-				      itemprop="contentUrl"
-				    />
+				    <a href="<?php echo $post->url() ?>">
+					    <img
+					      src="<?php echo $img->url() ?>"
+					      alt="<?php echo $img->name() ?>"
+					      class=""
+					      itemscope itemtype="http://schema.org/ImageObject"
+		  			      itemprop="image"
+					      itemprop="contentUrl"
+					    />
+				    </a>
 			    </div>
 	            <br />
 	            <a href="<?php echo $post->url() ?>">
