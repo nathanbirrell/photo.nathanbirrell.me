@@ -3,6 +3,7 @@
 
   @media #{$medium-up} {
     padding: 34px 0;
+    min-height: 90%;
   }
 }
 
@@ -50,6 +51,10 @@ a {
   h3 {
     font-weight: $font-weight-bold;
     font-size: $font-size-small;
+  }
+
+  .archive-title h3 a {
+    color: $body-font-color;
   }
 }
 
@@ -178,6 +183,27 @@ a {
           height: 700px;
         }
       }
+    }
+  }
+
+  &.archive {
+    ul {
+      list-style: none;
+
+      & ul {
+        margin-left: 6px;
+
+        & li {
+          font-style: italic;
+        }
+      }
+    }
+
+    .archive-title {
+      display: none;
+    }
+    .date {
+      // margin: 0;
     }
   }
 }
