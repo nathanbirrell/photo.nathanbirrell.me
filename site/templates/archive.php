@@ -25,9 +25,21 @@
 	      <h3 class="archive-title">
 	        <a href="<?php echo $archive->url() ?>"><?php echo html($archive->title()) ?></a>
 	      </h3>
-	      <ul>
+	      <ul class="small-block-grid-2 medium-block-grid-3">
 	        <?php foreach($archive->children()->flip()->visible() as $post): ?>
 	          <li class="archive-post">
+	            <?php $img = $post->images()->first(); ?>
+	            <div class="archive-image imageFill">
+				    <img
+				      src="<?php echo $img->url() ?>"
+				      alt="<?php echo $img->name() ?>"
+				      class=""
+				      itemscope itemtype="http://schema.org/ImageObject"
+	  			      itemprop="image"
+				      itemprop="contentUrl"
+				    />
+			    </div>
+	            <br />
 	            <a href="<?php echo $post->url() ?>">
 	              <?php echo html($post->title()) ?>
 	            </a>
@@ -40,9 +52,7 @@
 
 	  </article>
 	</section>
-
-
-    <?php snippet('sidebar-archive-mobile') ?>
+	
 </div>
 
 <?php snippet('footer') ?>

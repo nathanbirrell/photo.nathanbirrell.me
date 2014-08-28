@@ -1,1 +1,1 @@
-$(document).foundation();
+$(document).foundation(),$(".imageFill").imagefill();

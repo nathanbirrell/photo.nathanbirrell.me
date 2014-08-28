@@ -64,6 +64,7 @@ a {
 
     & ul {
       margin-left: 6px;
+      list-style: none;
 
       & li {
         font-style: italic;
@@ -204,6 +205,21 @@ a {
     }
     .date {
       // margin: 0;
+    }
+
+    .archive-image {
+      height: 95px;
+
+      @media #{$medium-up} {
+        height: 125px;
+      }
+      @media #{$large-up} {
+        height: 155px;
+      }
+
+      img {
+        max-width: none;
+      }
     }
   }
 }

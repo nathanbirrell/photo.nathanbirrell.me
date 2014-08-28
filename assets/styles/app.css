@@ -7034,8 +7034,9 @@ a:hover, a:active {
   list-style: none; }
   /* line 65, ../scss/_style.scss */
   .menu ul ul {
-    margin-left: 6px; }
-    /* line 68, ../scss/_style.scss */
+    margin-left: 6px;
+    list-style: none; }
+    /* line 69, ../scss/_style.scss */
     .menu ul ul li {
       font-style: italic; }
     @media only screen and (min-width: 40.063em) {
@@ -7048,71 +7049,85 @@ a:hover, a:active {
     .menu ul {
       margin-left: 0; } }
 
-/* line 84, ../scss/_style.scss */
+/* line 85, ../scss/_style.scss */
 .post {
   background-color: transparent;
   border: none; }
-  /* line 88, ../scss/_style.scss */
+  /* line 89, ../scss/_style.scss */
   .post h1 {
     font-weight: 700;
     font-size: 140%; }
-    /* line 89, ../scss/_style.scss */
+    /* line 90, ../scss/_style.scss */
     .post h1 a {
       color: #222222; }
-  /* line 96, ../scss/_style.scss */
+  /* line 97, ../scss/_style.scss */
   .post h2 {
     font-size: 100%;
     margin: 22px 0; }
-  /* line 101, ../scss/_style.scss */
+  /* line 102, ../scss/_style.scss */
   .post h3 {
     font-weight: 700;
     font-size: 100%; }
-  /* line 106, ../scss/_style.scss */
+  /* line 107, ../scss/_style.scss */
   .post .date {
     font-style: italic;
     font-size: 82%;
     display: block;
     margin-bottom: 14px; }
-  /* line 162, ../scss/_style.scss */
+  /* line 163, ../scss/_style.scss */
   .post .full-image {
     text-align: center;
     margin: 12px 0;
     max-height: 700px;
     max-width: 700px;
     overflow: hidden; }
-    /* line 169, ../scss/_style.scss */
+    /* line 170, ../scss/_style.scss */
     .post .full-image img {
       display: inline-block; }
-      /* line 172, ../scss/_style.scss */
+      /* line 173, ../scss/_style.scss */
       .post .full-image img, .post .full-image img.post-image {
         width: 100%;
         height: auto; }
-      /* line 177, ../scss/_style.scss */
+      /* line 178, ../scss/_style.scss */
       .post .full-image img.post-image-tall {
         width: 80%;
         height: auto; }
         @media only screen and (min-width: 40.063em) {
-          /* line 177, ../scss/_style.scss */
+          /* line 178, ../scss/_style.scss */
           .post .full-image img.post-image-tall {
             width: auto;
             height: 700px; } }
-  /* line 190, ../scss/_style.scss */
+  /* line 191, ../scss/_style.scss */
   .post.archive ul {
     list-style: none; }
-    /* line 193, ../scss/_style.scss */
+    /* line 194, ../scss/_style.scss */
     .post.archive ul ul {
       margin-left: 6px; }
-      /* line 196, ../scss/_style.scss */
+      /* line 197, ../scss/_style.scss */
       .post.archive ul ul li {
         font-style: italic; }
-  /* line 202, ../scss/_style.scss */
+  /* line 203, ../scss/_style.scss */
   .post.archive .archive-title {
     display: none; }
+  /* line 210, ../scss/_style.scss */
+  .post.archive .archive-image {
+    height: 95px; }
+    @media only screen and (min-width: 40.063em) {
+      /* line 210, ../scss/_style.scss */
+      .post.archive .archive-image {
+        height: 125px; } }
+    @media only screen and (min-width: 64.063em) {
+      /* line 210, ../scss/_style.scss */
+      .post.archive .archive-image {
+        height: 155px; } }
+    /* line 220, ../scss/_style.scss */
+    .post.archive .archive-image img {
+      max-width: none; }
 
-/* line 211, ../scss/_style.scss */
+/* line 227, ../scss/_style.scss */
 .footer {
   margin-bottom: 24px; }
-  /* line 213, ../scss/_style.scss */
+  /* line 229, ../scss/_style.scss */
   .footer p {
     display: inline-block;
     margin: 12px auto;

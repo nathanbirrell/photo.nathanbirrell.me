@@ -1,3 +1,5 @@
 <nav class="show-for-small-only menu">
-  <?php snippet('archive') ?>
+	<ul class="clearfix">
+	  <?php snippet('sidebar-archive-main') ?>
+	</ul>
 </nav>
