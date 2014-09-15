@@ -29,6 +29,7 @@
 	        <?php foreach($archive->children()->flip()->visible() as $post): ?>
 	          <li class="archive-post">
 	            <?php $img = $post->images()->first(); ?>
+	            
 	            <div class="archive-image imageFill">
 				    <a href="<?php echo $post->url() ?>">
 					    <img
@@ -41,6 +42,7 @@
 					    />
 				    </a>
 			    </div>
+			    
 	            <br />
 	            <a href="<?php echo $post->url() ?>">
 	              <?php echo html($post->title()) ?>
