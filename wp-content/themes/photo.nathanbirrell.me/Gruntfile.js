@@ -47,6 +47,8 @@ module.exports = function(grunt) {
       dist: {
         src: [
           'js/foundation/js/foundation.min.js',
+          'js/imagefill/js/jquery-imagefill.min.js',
+          'js/imagesloaded/imagesloaded.pkgd.min.js',
           'js/custom/*.js'
         ],
 
