@@ -49,3 +49,7 @@ RewriteRule ^(.*) index.php [L]
 #
  AddDefaultCharset UTF-8
  php_flag short_open_tag on
+
+# BEGIN WordPress
+
+# END WordPress
