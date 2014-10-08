@@ -3,7 +3,7 @@
 <div class="row site-body" itemscope itemtype="http://schema.org/Article">
     <section>
 
-	  <article class="medium-6 medium-offset-3 columns panel post" itemprop="articleSection">
+	  <article class="small-7 medium-offset-2 columns panel post" itemprop="articleSection">
 
 	    <?php
 	      if ($page->isHomePage()) {
